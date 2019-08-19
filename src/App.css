@@ -21,3 +21,8 @@ img {
   height:auto;
   text-align: center
 }
+.my-tether-theme{
+background-color: black;
+z-index:5;
+color:yellow;
+}

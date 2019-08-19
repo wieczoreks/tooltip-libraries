@@ -24,7 +24,7 @@ componentDidMount(){
     new Tooltip(document.querySelector("#tooltip2"), {
         placement:"auto",
         title:"Growth rates for orders, revenues and order backlog are on a comparable basis (local currency adjusted for acquisitions and divestitures), previously referred to as ‘like-for-like’. US$ growth rates are presented in Key Figures table",
-        template:'<div class="tooltip" style="color:white; background-color:black" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>',
+        template:'<div class="tooltip" style="color:white; background-color:black; width:200px" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>',
         offset:1000,
         container:false,
         delay: 0,
@@ -39,7 +39,7 @@ componentDidMount(){
         arrowSelector:".tooltip-arrow",
         innerSelector: ".tooltip-inner",
         title:"Growth rates for orders, revenues and order backlog are on a comparable basis (local currency adjusted for acquisitions and divestitures), previously referred to as ‘like-for-like’. US$ growth rates are presented in Key Figures table",
-        template:'<div class="tooltip" style="color:white; background-color:black" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>',
+        template:'<div class="tooltip" style="color:white; background-color:black; width:200px" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>',
         offset:1000,
         container:false,
         delay: 0,
