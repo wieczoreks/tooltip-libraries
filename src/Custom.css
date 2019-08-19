@@ -1,0 +1,17 @@
+.sup {
+position:relative
+}
+
+.custom {
+visibility:hidden;
+opacity:0;
+position:absolute;
+top:-150px;
+left:0;
+width:300px;
+background-color:black;
+color:white;
+padding:2px;
+word-wrap: break-word;
+z-index:2;
+}
